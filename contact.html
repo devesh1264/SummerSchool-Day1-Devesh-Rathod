@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact me</h1>
+    <form action="#">
+        <label for="name">Name:-</label>
+        <input type=" text" id="name" name="name" required>
+
+        <label for="Email">Email:-</label>
+        <input type="email" name="Email" id="Email" required>
+
+        <label for="tel">Phone Number:-</label>
+        <input type="tel" name="tel" id="tel"required>
+
+        <label for="message">Message:-</label>
+        <textarea name="message" id="message" required></textarea>
+        <br>
+
+        <p>Preffered Contact methods :-</p>
+        <input type="checkbox" name="method" id="Email">Email
+        <input type="checkbox" name="method" id="message">Phone
+        <input type="checkbox" name="method" id="tel">Text
+        <br>
+
+        <p>Inquiry type</p>
+        <input type="radio" name = 'inquiry' value = "general" checked>General
+        <input type="radio" name = 'inquiry' value = "business">Business
+        <input type="radio" name = 'inquiry' value = "Support">Support
+        <br>
+        <br>
+        <button>Submit !!</button>
+    </form>
+    
+</body>
+</html>
